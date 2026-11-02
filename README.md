@@ -49,32 +49,40 @@ I added three headings for my favorite music, anime, and activities. Clicking ea
 
 # Part 3 — DOM Manipulation with jQuery
 
-# Task 5 — Add and Remove Skills
+ Task 5 — Add and Remove Skills
 
 I added a list with four technical skills and an input where a new skill can be typed. The buttons add a skill to the end of the list, add one to the beginning, or remove the last skill. Empty input is ignored.
 
-![Task 5 screenshot](screenshots/task-5.png)
+<img width="1155" height="462" alt="image" src="https://github.com/user-attachments/assets/bb0d745b-1ceb-4c2b-8ee7-696deed92942" />
+<img width="1195" height="457" alt="image" src="https://github.com/user-attachments/assets/20bb619e-3e2f-4ee2-89e0-0ab158d86e8a" />
 
-# Task 6 — Modifying Attributes
 
-I added a social media link. When the button is clicked, jQuery changes the link destination and its text between GitHub and LinkedIn.
 
-![Task 6 screenshot](screenshots/task-6.png)
+ Task 6 — Modifying Attributes
 
-# Task 7 — Form Interaction
+I added a social media link. When the button is clicked, jQuery changes the link destination and its text between GitHub and Mangalib.
+<img width="1160" height="253" alt="image" src="https://github.com/user-attachments/assets/9fe8d57c-5186-431c-8ff5-441881b33bdd" />
+<img width="1221" height="268" alt="image" src="https://github.com/user-attachments/assets/f7bfd8f7-a3af-47b3-8a14-aef040da7c89" />
+
+
+Task 7 — Form Interaction
 
 I added Name and Email fields. As I type, the current values appear below the form. I used jQuery to read the input values and update the page text.
 
-![Task 7 screenshot](screenshots/task-7.png)
+<img width="1151" height="461" alt="image" src="https://github.com/user-attachments/assets/3f8abf68-442a-4ec1-ae69-5824a9f8fd6d" />
+
 
 # Part 4 — Animations
 
-# Task 8 — Basic Animation
+ Task 8 — Basic Animation
 
 I added three skill bars with different levels. They start at zero width. The button animates each bar to its level, and clicking it again resets the bars.
 
-![Task 8 screenshot](screenshots/task-8.png)
+<img width="1182" height="490" alt="image" src="https://github.com/user-attachments/assets/77618a61-357f-474f-96e0-8972c290bf06" />
+<img width="1077" height="486" alt="image" src="https://github.com/user-attachments/assets/e9faaa14-924d-425e-bd62-0f05b5fedbd1" />
 
-## Work Summary
+
+
+# Work Summary
 
 I started by connecting jQuery and checking it in the browser console. Then I added each assignment task in order and tested the buttons while building the page. I practiced selectors, effects, changing page elements, form input, and animations. The HTML, CSS, and JavaScript are in separate files.
