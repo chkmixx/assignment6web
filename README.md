@@ -25,19 +25,27 @@ I added my name, a short introduction, and a headline to the page. I used tag, I
 
 I added a short About Me section with my current status and a few facts about myself. The Hide, Show, and Toggle buttons change whether the status and facts are visible.
 
-![Task 2 screenshot](screenshots/task-2.png)
+<img width="1262" height="466" alt="image" src="https://github.com/user-attachments/assets/6aeecbea-2a5c-4831-8589-c11755053c05" />
+<img width="1277" height="310" alt="image" src="https://github.com/user-attachments/assets/dd4d43c8-226a-4d7b-b0fb-3fd2bba63a3a" />
+
+
 
  Task 3 — Fade Methods
 
 I added two pictures to the page. The three buttons use jQuery fade effects to show, hide, or switch the visibility of the pictures.
+<img width="1130" height="567" alt="image" src="https://github.com/user-attachments/assets/bd286d2d-9b45-437a-998c-71c25850a4b7" />
+<img width="1491" height="311" alt="image" src="https://github.com/user-attachments/assets/e8945f96-c736-450a-9949-e2fb1f2cfe78" />
 
-![Task 3 screenshot](screenshots/task-3.png)
+
 
  Task 4 — Slide Methods
 
 I added three headings for my favorite music, anime, and activities. Clicking each heading opens or closes its information panel. There are also buttons to open or close all the panels.
 
-![Task 4 screenshot](screenshots/task-4.png)
+<img width="1207" height="752" alt="image" src="https://github.com/user-attachments/assets/e7b4ca23-7f8f-4bfd-a474-0252f2390c6a" />
+<img width="1238" height="512" alt="image" src="https://github.com/user-attachments/assets/0e4b3250-9271-4e6d-8867-6141541637b9" />
+
+
 
 # Part 3 — DOM Manipulation with jQuery
 
