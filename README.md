@@ -3,33 +3,37 @@ name:Tomiris
 group:IT-2503
 # Part 1
 
-# Task 0 — Setup
+Task 0 — Setup
 
 I connected jQuery to my HTML page using a CDN. When the page loads, a message appears in the browser console to show that jQuery is ready.
 
-![Task 0 screenshot](screenshots/task-0.png)
+<img width="1802" height="367" alt="image" src="https://github.com/user-attachments/assets/8377af13-f5ce-45f0-8ebf-6469b5965c44" />
 
-# Task 1 — Selectors and CSS
+
+Task 1 — Selectors and CSS
 
 I added my name, a short introduction, and a headline to the page. I used tag, ID, and class selectors in jQuery. The greeting can change when the button is clicked, and the theme buttons switch the page between light and dark mode.
 
-![Task 1 screenshot](screenshots/task-1.png)
+<img width="1103" height="446" alt="image" src="https://github.com/user-attachments/assets/1f0e1cb4-c30b-41bb-9e93-163d874a880c" />
+<img width="897" height="428" alt="image" src="https://github.com/user-attachments/assets/6fc665e8-5378-4b03-b66d-67878d8355c9" />
+
+
 
 # Part 2 — jQuery Effects
 
-# Task 2 — Visibility Methods
+ Task 2 — Visibility Methods
 
 I added a short About Me section with my current status and a few facts about myself. The Hide, Show, and Toggle buttons change whether the status and facts are visible.
 
 ![Task 2 screenshot](screenshots/task-2.png)
 
-# Task 3 — Fade Methods
+ Task 3 — Fade Methods
 
 I added two pictures to the page. The three buttons use jQuery fade effects to show, hide, or switch the visibility of the pictures.
 
 ![Task 3 screenshot](screenshots/task-3.png)
 
-# Task 4 — Slide Methods
+ Task 4 — Slide Methods
 
 I added three headings for my favorite music, anime, and activities. Clicking each heading opens or closes its information panel. There are also buttons to open or close all the panels.
 
