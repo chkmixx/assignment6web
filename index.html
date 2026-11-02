@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomiris | Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tomiris's Portfolio</h1>
+        <p> Assignment 6</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Task 0: setup
+            <p>My first jQuery project.</p>
+        </section>
+
+        <section>
+            <h2>Task 1: About Me</h2>
+            <h3 id="headline">Hi, my name is Tomiris.</h3>
+            <p class="intro">
+                I'm 18 years old and I love music.
+                I used to play football, and I still like being active.
+            </p>
+
+            <button id="changeGreeting" type="button">Change greeting</button>
+
+            <h3>Choose a theme</h3>
+            <button id="lightTheme" type="button">Light theme</button>
+            <button id="darkTheme" type="button">Dark theme</button>
+        </section>
+
+        <section>
+            <h2>Task 2: Visibility Methods</h2>
+            <h3>More about me</h3>
+            <p>I like sleeping, writing songs and watching anime.</p>
+            <p id="status">Currently learning new things </p>
+            <ul id="funFacts">
+                <li>My favorite anime is My Hero Academia.</li>
+                <li>I listen to BTS and SEVENTEEN.</li>
+                <li>I love going for runs at night. I used to play football, so I still like getting some exercise.</li>
+            </ul>
+
+            <button id="hideButton" type="button">Hide</button>
+            <button id="showButton" type="button">Show</button>
+            <button id="toggleButton" type="button">Toggle</button>
+        </section>
+
+        <section>
+            <h2>Task 3: Fade Methods</h2>
+            <p>Here are two things I like: me funny and me pretty </p>
+
+            <button id="fadeInButton" type="button">Fade in</button>
+            <button id="fadeOutButton" type="button">Fade out</button>
+            <button id="fadeToggleButton" type="button">Fade toggle</button>
+
+            <div class="gallery">
+    <figure class="galleryItem">
+        <img src="photo_1_2026-11-02_17-38-34.jpg" alt="My photo">
+        <figcaption>me funny </figcaption>
+    </figure>
+
+    <figure class="galleryItem">
+        <img src="photo_1_2026-11-02_17-38-41.jpg" alt="Another photo of me">
+        <figcaption>me</figcaption>
+    </figure>
+</div>
+        </section>
+
+        <section>
+            <h2>Task 4: Slide Methods</h2>
+            <p>Click a heading to see my favorites.</p>
+
+            <h3 class="favoriteTitle">Favorite Music</h3>
+            <div class="favoritePanel">
+                <p> BTS and SEVENTEEN.</p>
+            </div>
+
+            <h3 class="favoriteTitle">Favorite Anime</h3>
+            <div class="favoritePanel">
+                <p> My Hero Academia.</p>
+            </div>
+
+            <h3 class="favoriteTitle">I Like Doing</h3>
+            <div class="favoritePanel">
+                <p>I like writing songs and going for runs at night.</p>
+            </div>
+
+            <button id="openPanels" type="button">Open all</button>
+            <button id="closePanels" type="button">Close all</button>
+        </section>
+
+        <section>
+            <h2>Task 5: Add and Remove Skills</h2>
+            <p>These are some things I am into to:</p>
+
+            <ul id="skillList">
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">jQuery</li>
+            </ul>
+
+            <input id="skillInput" type="text" placeholder="Type a skill">
+            <button id="addSkill" type="button">Add Skill</button>
+            <button id="prependSkill" type="button">Prepend Skill</button>
+            <button id="removeSkill" type="button">Remove Skill</button>
+        </section>
+
+        <section>
+            <h2>Task 6:modifying atributes</h2>
+            <p>
+                <a id="socialLink" href="https://github.com/chkmixxopener noreferrer">
+                    My GitHub
+                </a>
+            </p>
+            <button id="changeLink" type="button">Change link to Mangalib>
+        </section>
+
+        <section>
+            <h2>Task 7: Form Interaction</h2>
+            <form>
+                <label for="nameInput">Name</label>
+                <input id="nameInput" type="text" placeholder="Type your name">
+
+                <label for="emailInput">Email</label>
+                <input id="emailInput" type="email" placeholder="Type your email">
+            </form>
+
+            <p>Name: <span id="nameOutput">—</span></p>
+            <p>Email: <span id="emailOutput">—</span></p>
+        </section>
+
+        <section>
+            <h2>Task 8: Basic Animation</h2>
+            <p>Click the button to animate my skill bars.</p>
+
+            <div class="barRow">
+                <p>HTML</p>
+                <div class="barBackground">
+                    <div class="skillBar" data-width="85"></div>
+                </div>
+            </div>
+
+            <div class="barRow">
+                <p>CSS</p>
+                <div class="barBackground">
+                    <div class="skillBar" data-width="70"></div>
+                </div>
+            </div>
+
+            <div class="barRow">
+                <p>jQuery</p>
+                <div class="barBackground">
+                    <div class="skillBar" data-width="50"></div>
+                </div>
+            </div>
+
+            <button id="animateButton" type="button">Animate My Skills</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tomiris</p>
+    </footer>
+</body>
+</html>
